@@ -1,0 +1,58 @@
+.wrap-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.wrap-bg-header {
+    background: #3E51B5;
+    height: 25%;
+}
+.wrap-bg-main {
+    background: #E9E9EC;
+    height: 75%;
+}
+header{
+    color: #fff;
+    position: relative;
+}
+header h1 {
+    display: inline-block;
+    font-size: 42px;
+}
+header .social-icons {
+    position: absolute;
+    right: 0;
+    top: 40px;
+    margin: 0;
+}
+header .social-icons li {
+    display: inline-block;
+}
+header .social-icons span {
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    border-radius: 4px;
+    line-height: 20px;
+}
+.box-shadow--2dp {
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12)
+}
+.box-shadow--8dp {
+    box-shadow: 0 8px 10px 1px rgba(0, 0, 0, .14), 0 3px 14px 2px rgba(0, 0, 0, .12), 0 5px 5px -3px rgba(0, 0, 0, .2)
+}
+.popup a {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    left: 0;
+    background: rgba(0,0,0, 0.5);
+}
+.popup img {
+    width: 50%;
+    padding: 100px;
+}
